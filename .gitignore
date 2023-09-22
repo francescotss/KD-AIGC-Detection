@@ -1,0 +1,8 @@
+/weights
+/runs
+/.ipynb_checkpoints
+/checkpoints
+/datasets
+/__pycache__
+/desktop.ini
+.pyc
