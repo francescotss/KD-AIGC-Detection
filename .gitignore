@@ -4,5 +4,5 @@
 /checkpoints
 /datasets
 /__pycache__
-/desktop.ini
-.pyc
+desktop.ini
+*.pyc
