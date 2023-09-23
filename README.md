@@ -6,6 +6,9 @@
 
 The code is designed to be executed on Google Colab, just open [notebook.ipynb](notebook.ipynb). All the istruction to run tranings and evaluations are inside the notebook. 
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/francescotss/master_thesis/blob/main/notebook.ipynb)
+
+
 ### Notebook structure
 
 1. **Startup**: Start colab and install dependencies
