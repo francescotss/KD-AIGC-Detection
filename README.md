@@ -8,9 +8,9 @@ In this thesis, we present an alternative approach using Continual Learning. Thi
 
 ## Requirements and Usage
 
-The code is designed to be executed on Google Colab, just open [notebook.ipynb](notebook.ipynb). All the istruction to run tranings and evaluations are inside the notebook. 
+The code is designed to be executed on Google Colab, just open [notebook.ipynb](notebook.ipynb). All the instructions to run trainings and evaluations are provided within the notebook.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/francescotss/master_thesis/blob/main/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/francescotss/KD-AIGC-Detection/blob/main/notebook.ipynb)
 
 
 ### Notebook structure
