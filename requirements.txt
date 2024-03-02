@@ -1,7 +1,7 @@
 scipy
 scikit-learn
 numpy
-opencv_python
+opencv
 Pillow
-torch>=1.2.0
+pytorch
 torchvision
