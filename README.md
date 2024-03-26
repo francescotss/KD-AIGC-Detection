@@ -2,9 +2,10 @@
 
 ![pipeline](https://github.com/francescotss/KD-AIGC-Detection/assets/44005266/76e76c6b-4635-4ab2-8e23-26478a4b689e)
 
+In this work, we implemented a robust image classification system to detect AI-generated images using Knowledge Distillation to facilitate incremental training in a continual learning scenario while avoiding catastrophic forgetting.
 
-Over the past few years, image-generative models have made tremendous strides. Today, these models are ubiquitous in our society, thanks to their widespread adoption across various fields, flooding the web, social media, and newspapers with potentially harmful content. To combat this threat, numerous high-quality AI-generated image detectors are being proposed. However, most of the models can only detect images synthesized by generative architectures available during training. Attempting to simply add a new architecture to the model's knowledge is a challenge due to the catastrophic forgetting problem, a phenomenon in which a neural network partially or completely loses its previous knowledge while trying to learn a new task. This forces us to train a new detection model from scratch whenever a new generative model is presented,  putting high pressure on the image forensics community to continually develop new detection models to keep up with the fast-paced development of new generative networks.
-In this thesis, we present an alternative approach using Continual Learning. This growing field of research aims to develop adaptive algorithms capable of learning from a stream of data without incurring into the catastrophic forgetting problem. Our objective is to investigate the feasibility of an AI-generated image detection model that can extend its capabilities to multiple generative sources. We test a state-of-the-art knowledge distillation-based method over a stream of 13 datasets and compare it with different alternative strategies. Our extensive experimental results demonstrate that the proposed architecture effectively mitigates catastrophic forgetting, outperforming the other state-of-the-art methods.
+#### Abstract
+> Over the past few years, image-generative models have made tremendous strides. Today, these models are ubiquitous in our society, thanks to their widespread adoption across various fields, flooding the web, social media, and newspapers with potentially harmful content. To combat this threat, numerous high-quality AI-generated image detectors are being proposed. However, most of the models can only detect images synthesized by generative architectures available during training. Attempting to simply add a new architecture to the model's knowledge is a challenge due to the catastrophic forgetting problem, a phenomenon in which a neural network partially or completely loses its previous knowledge while trying to learn a new task. This forces us to train a new detection model from scratch whenever a new generative model is presented,  putting high pressure on the image forensics community to continually develop new detection models to keep up with the fast-paced development of new generative networks. In this work, we present an alternative approach using Continual Learning. This growing field of research aims to develop adaptive algorithms capable of learning from a stream of data without incurring into the catastrophic forgetting problem. Our objective is to investigate the feasibility of an AI-generated image detection model that can extend its capabilities to multiple generative sources. We test a state-of-the-art knowledge distillation-based method over a stream of 13 datasets and compare it with different alternative strategies. Our extensive experimental results demonstrate that the proposed architecture effectively mitigates catastrophic forgetting, outperforming the other state-of-the-art methods.
 
 ## Requirements and Usage
 
@@ -17,11 +18,11 @@ The code is designed to be executed on Google Colab, just open [colab_notebook.i
 
 1. **Startup**: Start colab and install dependencies
 2. -6. **Dataset, TL, KD, EWC, Evaluate**:  Dataset, methods and evaluation function definition
-7. **Workspace**: In this section it is possible to configurate and run trainings and evaluations
+7. **Workspace**: In this section, it is possible to configure and run trainings and evaluations
 
 ### Expected dataset structure
 Each dataset must be stored in
-`datasets/<type>/<dataset_name>.zip`. They will be extracted at runtime in `$destination_path/<dataset_name>` (working directly on Google Drive is not recommended)
+`datasets/<type>/<dataset_name>.zip`. They will be extracted at runtime in `$destination_path/<dataset_name>`
 
 
 ```
